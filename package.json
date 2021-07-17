@@ -1,0 +1,26 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Emplyoee tracker CLI app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perez-rob/Employee-Tracker.git"
+  },
+  "author": "Rob Perez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/perez-rob/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/perez-rob/Employee-Tracker#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.2",
+    "mysql": "^2.18.1"
+  }
+}
