@@ -1,5 +1,9 @@
 const chalk = require("chalk");
 
+const Questions = require('./lib/questions');
+const Queries = require('./lib/sqlQueries');
+
+
 
 console.log(chalk`{cyan 
    ██████████                           ████                                       
@@ -23,5 +27,19 @@ console.log(chalk`{cyan
      ░░░░░    ░░░░░      ░░░░░░░░  ░░░░░░  ░░░░ ░░░░░  ░░░░░░  ░░░░░               
                                                                                    
                                                                                    
-}`)
+}`);
+
+
+let newQuestions = new Questions();
+let newQueries = new Queries();
+
+
+newQueries.openConnection();
+newQueries.displayEmployeeAll();
+newQueries.endConnection();
+// newQuestions.navQuestion();
+
+
+
+
 
