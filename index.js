@@ -35,6 +35,9 @@ let newQuestions = new Questions();
 newQuestions.startDB();
 newQuestions.navQuestion();
 
+// REMOVE BEFORE SUBMIT
+// newQuestions.testFn();
+
 
 
 
