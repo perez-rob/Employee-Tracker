@@ -1,6 +1,6 @@
-CREATE DATABASE employee_trackerDB;
+CREATE DATABASE employee_trackerDB2;
 
-USE employee_trackerDB;
+USE employee_trackerDB2;
 
 CREATE TABLE department (
   id INT NOT NULL AUTO_INCREMENT,
