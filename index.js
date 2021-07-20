@@ -1,5 +1,4 @@
 const chalk = require("chalk");
-
 const Questions = require("./lib/questions");
 
 console.log(chalk`{cyan 
@@ -31,6 +30,3 @@ let newQuestions = new Questions();
 
 newQuestions.startDB();
 newQuestions.navQuestion();
-
-// REMOVE BEFORE SUBMIT
-// newQuestions.testFn();
