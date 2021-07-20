@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a command line program CMs program that allows the user to manage personnel of a company. Using an interactive series of prompts, the user can view/create/edit/delete Departments, Roles, and Employees and specify their relationships to one another. The information is stored in/retrieved from a MySQL database.
+This is a command line program CMS program that allows the user to manage personnel of a company. Using an interactive series of prompts, the user can view/create/edit/delete Departments, Roles, and Employees and specify their relationships to one another. The information is stored in/retrieved from a MySQL database.
 
 ![Demo gif](./demo.gif)
 
