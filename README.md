@@ -90,7 +90,7 @@ npm start
 
 Solo project for GATech Coding Bootcamp
 by Rob Perez
-- [Portfolio Page](www.robperez.net)
+- [Portfolio Page](https://www.robperez.net)
 - rob@robperez.net
 - 404.317.5336
 
