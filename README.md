@@ -25,8 +25,6 @@ A video demonstration of the project can be downloaded in MP4 format here: [http
 
 - [Credits](#credits)
 
-- [Tests](#tests)
-
 - [Questions](#questions)
 
 - [License](#license)  
