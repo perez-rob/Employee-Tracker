@@ -72,15 +72,19 @@ To use this Team Profile Generator:
 
 1) Copy the SQL code in DBschema.sql into your MySQL GUI and run to create the database and necessary tables
 
-2) Open your preferred CLI and cd to the Employee-Tracker directory
+2) The program needs your MySQL password to function, so you can either:
+    a) open /lib/sqlQueries.js and in line 16 replace 'process.env.DB_PASS' with your password, or
+    b) create a new file in the root directory called '.env', open it and add the line 'DB_PASS = {your passwrod}'
+    
+3) Open your preferred CLI and cd to the Employee-Tracker directory
 
-3) Run the following command to begin the application
+4) Run the following command to begin the application
 ```
 npm start
 ```
-4) Use the up/down arrows on keyboard to navigate through options on the main menu
+5) Use the up/down arrows on keyboard to navigate through options on the main menu
 
-5) Follow the instructions presented for each action to view/create/update/delete information
+6) Follow the instructions presented for each action to view/create/update/delete information
 
 
 
